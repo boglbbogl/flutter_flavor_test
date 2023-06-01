@@ -60,6 +60,27 @@ android {
             signingConfig signingConfigs.debug
         }
     }
+
+    flavorDimensions "build-type"
+
+    productFlavors {
+        dev {
+            dimension "build-type"
+            applicationIdSuffix ".dev"
+            resValue "string", "app_name", "TYGER_DEV"
+        }
+
+        qa {
+            dimension "build-type"
+            applicationIdSuffix ".qa"
+            resValue "string", "app_name", "TYGER_QA"
+        }
+
+        prod {
+            dimension "build-type"
+            resValue "string", "app_name", "TYGER"
+        }
+    }
 }
 
 flutter {
