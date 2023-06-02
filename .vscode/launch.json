@@ -5,8 +5,8 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name" : "TYGER_DEV",
-            "request" : "launch",
+            "name": "dev",
+            "request": "launch",
             "type" : "dart",
             "args" : [
                 "--flavor",
@@ -14,8 +14,8 @@
             ],
         },
         {
-            "name" : "TYGER_QA",
-            "request" : "launch",
+            "name": "qa",
+            "request": "launch",
             "type" : "dart",
             "args" : [
                 "--flavor",
@@ -23,30 +23,13 @@
             ],
         },
         {
-            "name" : "TYGER_PROD",
-            "request" : "launch",
+            "name": "prod",
+            "request": "launch",
             "type" : "dart",
             "args" : [
                 "--flavor",
                 "prod",
             ],
         },
-        // {
-        //     "name": "flutter_flavor_test",
-        //     "request": "launch",
-        //     "type": "dart"
-        // },
-        // {
-        //     "name": "flutter_flavor_test (profile mode)",
-        //     "request": "launch",
-        //     "type": "dart",
-        //     "flutterMode": "profile"
-        // },
-        // {
-        //     "name": "flutter_flavor_test (release mode)",
-        //     "request": "launch",
-        //     "type": "dart",
-        //     "flutterMode": "release"
-        // }
     ]
 }
