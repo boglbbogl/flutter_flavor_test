@@ -67,13 +67,13 @@ android {
         dev {
             dimension "build-type"
             applicationIdSuffix ".dev"
-            resValue "string", "app_name", "TYGER_DEV"
+            resValue "string", "app_name", "[DEV]TYGER"
         }
 
         qa {
             dimension "build-type"
             applicationIdSuffix ".qa"
-            resValue "string", "app_name", "TYGER_QA"
+            resValue "string", "app_name", "[QA]TYGER"
         }
 
         prod {
