@@ -12,6 +12,7 @@
                 "--flavor",
                 "dev",
             ],
+            "program": "lib/main_dev.dart",
         },
         {
             "name": "qa",
@@ -21,6 +22,7 @@
                 "--flavor",
                 "qa",
             ],
+            "program": "lib/main_qa.dart",
         },
         {
             "name": "prod",
@@ -30,6 +32,7 @@
                 "--flavor",
                 "prod",
             ],
+            "program": "lib/main_prod.dart",
         },
     ]
 }
