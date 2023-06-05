@@ -1,4 +1,4 @@
-package com.example.flutter_flavor_test
+package com.example.flutter_flavorApp_test
 
 import io.flutter.embedding.android.FlutterActivity
 
