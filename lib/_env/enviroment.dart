@@ -5,6 +5,7 @@ import 'package:flutter_flavor_test/_src/my_app.dart';
 import 'package:flutter_flavor_test/_env/firebase_options_dev.dart' as dev;
 import 'package:flutter_flavor_test/_env/firebase_options_qa.dart' as qa;
 import 'package:flutter_flavor_test/_env/firebase_options.dart' as prod;
+import 'package:kakao_flutter_sdk/kakao_flutter_sdk.dart';
 
 class Enviroment {
   static late Enviroment _instance;
@@ -34,6 +35,7 @@ class Enviroment {
   Future<void> run() async {
     WidgetsFlutterBinding.ensureInitialized();
     await Firebase.initializeApp(options: _options);
+
     runApp(const MyApp());
   }
 

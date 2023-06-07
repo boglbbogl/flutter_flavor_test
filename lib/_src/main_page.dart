@@ -1,10 +1,6 @@
-import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_flavor_test/_env/enviroment.dart';
-import 'package:flutter_naver_login/flutter_naver_login.dart';
-import 'package:google_sign_in/google_sign_in.dart';
 
 class MainPage extends StatelessWidget {
   const MainPage({super.key});
@@ -17,9 +13,11 @@ class MainPage extends StatelessWidget {
         onTap: () async {
           HapticFeedback.heavyImpact();
 
-          NaverLoginResult _login = await FlutterNaverLogin.logIn();
-          print("accessToken ::: ${_login.accessToken}");
-          print(_login.account);
+          // OAuthToken? _token = await UserApi.instance.loginWithKakaoTalk();
+          // await TokenManagerProvider.instance.manager.setToken(_token);
+          // User? _user = await UserApi.instance.me();
+          // print("token :: ${_user.id}");
+          // print("token :: ${_user.kakaoAccount?.email}");
         },
         child: Center(
           child: Text(Enviroment.enviroment.url),
