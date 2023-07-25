@@ -71,17 +71,20 @@ android {
             dimension "build-type"
             applicationIdSuffix ".dev"
             resValue "string", "app_name", "[DEV]TYGER"
+            resValue "string", "kakao_scheme", "kakao5sdi936b59b4d12313dffced4ecfd1d-dev"
         }
 
         qa {
             dimension "build-type"
             applicationIdSuffix ".qa"
             resValue "string", "app_name", "[QA]TYGER"
+            resValue "string", "kakao_scheme", "kakao5sdi936b59b4d12313dffced4ecfd1d-qa"
         }
 
         prod {
             dimension "build-type"
             resValue "string", "app_name", "TYGER"
+            resValue "string", "kakao_scheme", "kakao5sdi936b59b4d12313dffced4ecfd1d"
         }
     }
 }

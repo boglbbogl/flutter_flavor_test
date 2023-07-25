@@ -41,7 +41,17 @@
 			<string>kakao</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>kakao79b1be1b2c309365a656795418c478e1</string>
+				<string>$(KAKAO_SCHEME)</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>google</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>$(GOOGLE_SCHEME)</string>
 			</array>
 		</dict>
 	</array>
