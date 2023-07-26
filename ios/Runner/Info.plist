@@ -31,7 +31,7 @@
 			<string>naver</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>naver</string>
+				<string>$(NAVER_SCHEME)</string>
 			</array>
 		</dict>
 		<dict>
@@ -87,6 +87,6 @@
 	<key>naverServiceAppName</key>
 	<string>$(APP_NAME)</string>
 	<key>naverServiceAppUrlScheme</key>
-	<string>naver</string>
+	<string>$(NAVER_SCHEME)</string>
 </dict>
 </plist>

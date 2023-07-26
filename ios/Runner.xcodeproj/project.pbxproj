@@ -404,6 +404,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				NAVER_SCHEME = "naver-dev";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.flutterFlavorTest.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
@@ -486,6 +487,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				NAVER_SCHEME = "naver-qa";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.flutterFlavorTest.qa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
@@ -565,6 +567,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				NAVER_SCHEME = "naver-qa";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.flutterFlavorTest.qa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
@@ -643,6 +646,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				NAVER_SCHEME = "naver-dev";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.flutterFlavorTest.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
@@ -719,6 +723,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				NAVER_SCHEME = "naver-dev";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.flutterFlavorTest.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
@@ -795,6 +800,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				NAVER_SCHEME = "naver-qa";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.flutterFlavorTest.qa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
@@ -871,6 +877,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				NAVER_SCHEME = "naver-prod";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.flutterFlavorTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
@@ -1004,6 +1011,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				NAVER_SCHEME = "naver-prod";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.flutterFlavorTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
@@ -1031,6 +1039,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				NAVER_SCHEME = "naver-prod";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.flutterFlavorTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
