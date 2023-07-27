@@ -72,6 +72,7 @@ android {
             applicationIdSuffix ".dev"
             resValue "string", "app_name", "[DEV]TYGER"
             resValue "string", "kakao_scheme", "kakao5sdi936b59b4d12313dffced4ecfd1d-dev"
+            resValue "string", "dynamic_link", "tyger-dev.com"
         }
 
         qa {
@@ -79,12 +80,14 @@ android {
             applicationIdSuffix ".qa"
             resValue "string", "app_name", "[QA]TYGER"
             resValue "string", "kakao_scheme", "kakao5sdi936b59b4d12313dffced4ecfd1d-qa"
+            resValue "string", "dynamic_link", ""
         }
 
         prod {
             dimension "build-type"
             resValue "string", "app_name", "TYGER"
             resValue "string", "kakao_scheme", "kakao5sdi936b59b4d12313dffced4ecfd1d"
+            resValue "string", "dynamic_link", "tyger.com"
         }
     }
 }
